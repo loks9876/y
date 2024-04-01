@@ -25,7 +25,7 @@ let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPr
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let videoUrl = 'https://telegra.ph/file/4888490f550636ba35cd4.mp4';
+let videoUrl = 'https://telegra.ph/file/98b2519abcee837e683b8.mp4';
   let vn = './media/menu.mp3';
   const user = global.db.data.users[m.sender];
   const {money, joincount} = global.db.data.users[m.sender];
@@ -42,11 +42,9 @@ let readMore = more.repeat(900)
   const taguser = '@' +  m.sender.split('@s.whatsapp.net')[0];
 let str = ` *✜━═━═╊⎔《🔥》⎔╉═━═━✜*
 *❉👤╎اهلا ⌊ ${name} ⌉*
-*❉📱╎هذا هو رقم مطوري اسمه 𝑁𝐴𝑇𝑺𝑈:*
-https://wa.me/201554824764
-
-*⏣┇هلا يا حب اذا واجهتك اي مشكله او اي شي ما عجبك ذا مطوري ممكن تكلمه كي يصلح و شكرا,بوت 𝑁𝐴𝑇𝑺𝑈*.
-*✜━═━═╊⎔《🔥》⎔╉═━═━✜* `.trim();
+*رقم مطور اذا احببت تكلمه في ضروره*
+*https://wa.me/201556800551*
+*معك بوت سوكونا😂❤️*`.trim();
 
 conn.sendMessage(m.chat, {
         video: { url: videoUrl }, caption: str,
