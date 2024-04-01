@@ -180,13 +180,13 @@ console.log(chalk.bgBlack(chalk.bold.redBright("ابدأ برمز البلد ا�
 process.exit(0)
 }} else {
 while (true) {
-numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('الرجاء كتابه رقم الواتساب الخاص بك.\nمثال:+201554824764\n')))
+numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('الرجاء كتابه رقم الواتساب الخاص بك.\nمثال:+201556800551\n')))
 numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
 if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
 break 
 } else {
-console.log(chalk.bgBlack(chalk.bold.redBright("الرجاء كتابة رقم الواتساب الخاص بك.\nمثال:+201554824764.\n")))
+console.log(chalk.bgBlack(chalk.bold.redBright("الرجاء كتابة رقم الواتساب الخاص بك.\nمثال:+201556800551.\n")))
 }}
 rl.close()  
 } 
@@ -385,7 +385,7 @@ global.reloadHandler = async function(restatConn) {
   conn.welcome = '👋 ¡نورت الجروب يحب/a!\n@user';
   conn.bye = '👋 ¡هتوحشنا!\n@user';
   conn.spromote = '*[ ℹ️ ] @user الجروب بقا افضل بوجودك ادمن🥰❤.*';
-  conn.sdemote = '*[ ℹ️ ] @userكنت ادمن محترم🥹♥.*';
+  conn.sdemote = '*[ ℹ️ ] @userكنت ادمن فاشل🙂🌑.*';
   conn.sDesc = '*[ ℹ️ ] تم تعديل وصف المجموعة ♥.*';
   conn.sSubject = '*[ ℹ️ ] تم تغيير اسم المجموعة.*';
   conn.sIcon = '*[ ℹ️ ] تم تغيير صورة المجموعه.*';
