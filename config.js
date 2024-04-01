@@ -42,7 +42,7 @@ global.mes = d.toLocaleDateString('ar', {month: 'long'});
 global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝑁𝐴𝑇𝑺𝑈 - 𝙱𝚘𝚝`;
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝑺𝒖𝒌𝒖𝒏𝒂 - 𝙱𝚘𝚝`;
 global.gt = '☾︎☀︎︎𝑺𝒖𝒌𝒖𝒏𝒂-𝑩𝒐𝒕☀︎︎☽︎';
 global.mysticbot = '☾︎☀︎︎𝑺𝒖𝒌𝒖𝒏𝒂-𝑩𝒐𝒕☀︎︎☽︎';
 global.md = 'https://chat.whatsapp.com/HVE7w2j5ff2AKpvskGcL7S';
